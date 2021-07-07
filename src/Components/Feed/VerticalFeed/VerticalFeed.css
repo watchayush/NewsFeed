@@ -1,0 +1,23 @@
+.feedTitle{
+    /* line-height: 1.5em;
+    height: 3em; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 25px;
+    /* font-weight: bold; */
+}
+.feedImageParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 60%;
+    margin-top: 5%;
+}
+.feedImage{
+    background-image: url("./download.jpg");
+    width: 100%;
+    height: 100%;
+}

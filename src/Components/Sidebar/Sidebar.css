@@ -1,0 +1,126 @@
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.user{
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    width: 70%;
+    margin-top: 44px;
+    box-shadow: 0 0 30px rgb(219, 217, 217);
+    padding: 5px;
+}
+.userImage{
+    padding: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.userImg{
+    border-radius: 50%;
+    background-image: url("./myPic.png");
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+}
+.userWelcome{
+    height: 100%;
+    padding: 5px;
+    width: 70%;
+    margin-block: 10px;
+}
+.userName{
+    font-size: 0.9rem;
+    font-weight: 600
+}
+.welcomeLine{
+    font-size: 0.7rem;
+    color: rgb(110, 110, 110);
+}
+.toggle{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 4px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(219, 217, 217);
+}
+.toggleBtn{
+    margin-block: 5px;
+    width: 90%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 0.5em rgb(192, 192, 192) inset !important;
+    /* padding: 2px; */
+    display: flex;
+    border-radius: 7px;
+    height: 50px;
+}
+.toggleBtn:hover{
+    box-shadow: 2px 2px 0.5em rgb(124, 124, 124) inset !important;
+    cursor: pointer;
+}
+.horizontal{
+    width: 50%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0ff7;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    /* box-shadow: 0 0 0.3em gray inset; */
+}
+.vertical{
+    width: 50%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    justify-content: center;
+}
+.horizontalIcon{
+    fill:grey;
+}
+.verticalIcon{
+    fill:grey;
+}
+.feedback{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 4px;
+    width: 70% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(219, 217, 217);
+}
+.feedbackBtn{
+    margin-block: 8px;
+    background-color: #0ff7;
+    border-radius: 7px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0.5em rgb(194, 194, 194) inset;
+    height: 50px;
+}
+.feedbackBtn:hover{
+    box-shadow: 0 0 0.5em rgb(241, 240, 240) inset;
+    cursor:pointer;
+}

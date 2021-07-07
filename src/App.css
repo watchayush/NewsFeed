@@ -1,0 +1,25 @@
+.App{
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 25%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 0 30px gray;
+    position: fixed;
+    z-index: 1;
+}
+.news{
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    background-color: whitesmoke;
+    
+}
+

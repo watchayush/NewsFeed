@@ -1,0 +1,40 @@
+.feedbackModelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    padding: 30px;
+}
+.feedbackModelHeading{
+    width: 100%;
+}
+.formInputs{
+    border: none !important;
+    box-shadow: 0 0 30px rgb(224, 241, 253);
+}
+.PhoneInputInput{
+    border: none;
+}
+.formElement{
+    margin-block: 4px;
+}
+.formLabel{
+    font-weight: 600;
+}
+.submitBtn{
+    box-shadow: rgba(1, 102, 102, 0.459) 0px 0px 0.5em inset !important;
+    border: none;
+    background-color:#0ed4d4 !important;
+    border: none !important;
+}
+.submitBtn:hover{
+    box-shadow: rgba(1, 160, 160, 0.459) 0px 0px 2em inset !important;
+}
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9999; /*this will keep the icon appearing all time, even when on input::focus*/
+  }

@@ -1,0 +1,72 @@
+.news_feedsV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-block: 50px;
+    margin-inline: 20px; */
+    background-color: whitesmoke;
+    padding-inline: 45px;
+    width: 100%;
+    height: 100%;
+    /* flex-wrap: wrap; */
+}
+.feed_bodyV{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* margin-inline:25px; */
+    margin-top: 38px;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    perspective-origin: top;
+}
+.feed_cardV{
+    
+    width: 28%;
+    height: 50%;
+    margin: 8px;
+    padding: 5px;
+    /* height: ; */
+    box-shadow: 0 0 30px rgb(209, 209, 209);
+    background-color: white;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+.paginateV{
+    margin-top: 65px;
+    height: 10%;
+}
+.delete_btnV{
+    height: 10%;
+}
+.deleteV{
+    color: red;
+    margin-left: 92%;
+    border-radius: 50%;
+    text-align: center;
+    height: 100%;
+}
+.deleteV:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.transition-enter{
+    transform: rotateY(-90deg);
+}
+.transition-enter-active{
+  transition: transform 500ms ease-out;
+  transform: rotateY(0deg);
+}
+.transition-exit{
+    transform: rotateY(0deg);
+}
+.transition-exit-active{
+  transition: transform 500ms ease-out;
+  transform: rotateY(90deg);
+}
